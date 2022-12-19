@@ -64,15 +64,3 @@ export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
 
 
 
-// import { configureStore } from "@reduxjs/toolkit";
-
-
-// const store = configureStore({
-//     reducer: {
-//         estados: estadosSlice,
-//         municipios: [],
-//         distritos: []
-//     }
-// })
-
-// export default store;
