@@ -36,4 +36,4 @@ npm run start
 
 ## Link
 
-[Link Direto](https://react-redux-2rh02gyfs-marcos-vvc.vercel.app)
+[Link Direto](https://react-redux-dpq3f7xeq-marcos-vvc.vercel.app)
