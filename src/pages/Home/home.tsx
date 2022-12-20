@@ -7,6 +7,7 @@ import {
   selectApp,
 } from "../../reducers/states";
 import { AppDispatch, useAppSelector } from "../../store";
+import pais from "../../assets/logo.jpg";
 
 const Home = () => {
   const [selectedUf, setSelectedUf] = useState("0");
@@ -37,12 +38,13 @@ const Home = () => {
   };
 
   return (
-    <div className="flex h-screen ">
-      <div className="flex flex-col justify-center m-auto gap-2 border-double border-4 h-2/4 w-2/5 items-center bg-gray-500">
-        <h1 className="text-xl">Selecione os Estados</h1>
+    <div className="flex flex-col w-screnn h-screen items-center">
+      <img src={pais} className="w-full h-full" />
+      <div className="flex flex-col items-center px-6 py-4 rounded-lg bg-gray-200/50 border border-gray-600  text-gray-900 absolute bottom-2/4 w-2/4 opacity-100 gap-1 pb-5">
+        <h1 className="text-center text-xl font-bold">Selecione os Estados</h1>
         <select
           onChange={handleSelectedUf}
-          className=" border-2 rounded-md w-2/4 cursor-pointer	"
+          className=" border-2 border-black	 rounded-md w-2/4 cursor-pointer	pl-3 py-1"
         >
           <option>Selecione o Estado</option>
           {(states ?? []).map((uf) => (
@@ -54,7 +56,7 @@ const Home = () => {
 
         <select
           onChange={handleCounties}
-          className="border-2 rounded-md w-2/4	cursor-pointer	"
+          className="border-2 border-black rounded-md w-2/4	cursor-pointer	pl-3 py-1"
         >
           <option value="0">Selecione o Municipio</option>
           {(counties ?? []).map((city) => (
@@ -64,7 +66,7 @@ const Home = () => {
           ))}
         </select>
 
-        <select className="border-2 rounded-md w-2/4	cursor-pointer	">
+        <select className="border-2 border-black rounded-md w-2/4	cursor-pointer pl-3	py-1">
           <option value="0">Selecione a Região Administrativa</option>
           {(districts ?? []).map((district) => (
             <option key={district.id} value={district.id}>
