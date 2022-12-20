@@ -1,5 +1,12 @@
 ![image](https://user-images.githubusercontent.com/98921788/208760040-10b55a50-41e3-4139-a7a0-a7f5cb8d15b1.png)
 
+## Resumo do Projeto
+
+Teste realizado para a vaga de desenvolvedor frontend para a empresa IPAM Amazônia.
+No teste exigia que criasse três selects utilizando a api do IBGE:
+API: https://servicodados.ibge.gov.br/api/docs/localidades
+incluindo o Redux e usando seus três conceitos centrais: store, actions, reducers.
+
 ## Tecnologias utilizadas
 
 <p align="center">
