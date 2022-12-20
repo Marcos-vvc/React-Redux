@@ -1,6 +1,4 @@
-
-![image](https://user-images.githubusercontent.com/98921788/208541998-457de40a-b36c-4ffb-bc16-c2c889205a90.png)
-
+![image](https://user-images.githubusercontent.com/98921788/208760040-10b55a50-41e3-4139-a7a0-a7f5cb8d15b1.png)
 
 ## Tecnologias utilizadas
 
